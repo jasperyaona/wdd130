@@ -1,16 +1,14 @@
 :root {
-    --primary-color: #1B4965;   /* deep river blue */
+    --primary-color: #1B4965;   
     --secondary-color: #ffffff;
-    --accent-color: #2D6A4F;    /* forest green */
-    --highlight: #F4A261;       /* warm accent */
+    --accent-color: #2D6A4F;  
+    --highlight: #F4A261;      
     --light-bg: #F8FAFC;
     --border: #E5E7EB;
 
     --heading-font: "Georgia", "Times New Roman", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
-
-/* RESET */
 * {
     margin: 0;
     padding: 0;
