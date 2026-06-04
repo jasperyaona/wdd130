@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>Contact Us | Raffer's Shed</title>
+
+    <meta name="description" content="Want to learn more? Use this page to get a hold of us.">
+
+    <meta name="author" content="Jasper James Yaona">
+
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+
+
+    <header>
+        <img src="images/z-boat.png" alt="Raffer's Shed Logo">
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1>Raffer's Shed</h1>
+
+        <!-- Company Information -->
+        <section class="company-info">
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>+1 999 999 9999</p>
+            <p>info@whitewater.com</p>
+        </section>
+
+        <!-- Map and Form -->
+        <section class="contact-container">
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=YOUR_MAP_CODE" loading="lazy"
+                  allowfullscreen>
+                </iframe>
+            </div>
+
+            <form action="#" method="post">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Message Purpose</legend>
+
+                    <label>
+                        <input type="radio" name="purpose" value="general" required>
+                        General Inquiry
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="website">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+
+                <label class="checkbox">
+                    <input type="checkbox" name="newsletter">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Get in Touch!</button>
+
+            </form>
+        </section>
+
+        <!-- Employee Profiles -->
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+
+            <div class="employee">
+                <img src="images/manager.jpg" alt="Operations Manager">
+                <p>Sarah Johnson - Operations Manager</p>
+            </div>
+
+            <div class="employee">
+                <img src="images/guide.jpg" alt="Lead River Guide">
+                <p>Mike Carter - Lead River Guide</p>
+            </div>
+
+            <div class="employee">
+                <img src="images/support.jpg" alt="Customer Service Representative">
+                <p>Emily Davis - Customer Service Representative</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            ©2026 | Raffer's Shed | Jasper James Yaona
+        </p>
+
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+
+            <a href="https://www.youtube.com/">
+                <img src="images/youtube.svg" alt="YouTube">
+            </a>
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>
