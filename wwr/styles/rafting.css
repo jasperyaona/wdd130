@@ -220,6 +220,27 @@ footer {
     max-width: 1000px;
 }
 
+fieldset {
+    padding: 20px
+}
+
+fieldset label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.company-info {
+    text-align: center;
+}
+
+.company-info h1 {
+    margin-top: 20px;
+}
+
+.company-info p {
+    margin: 5px 0;
+}
+
 form {
     display: flex;
     flex-direction: column;
