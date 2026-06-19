@@ -2,7 +2,7 @@
     --primary-color: #1B4965;
     --secondary-color: #ffffff;
     --accent-color: #2D6A4F;
-    --highlight: #F4A261;
+    --highlight: #BC6C25;
     --light-bg: #F8FAFC;
     --border: #E5E7EB;
 
@@ -296,6 +296,7 @@ button {
     height: 700px;
     object-fit: cover;
     display: block;
+    filter: brightness(50%);
 }
 
 .home-hero-text {
@@ -304,7 +305,8 @@ button {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    color: white;
+    color: var(--secondary-color);
+
 }
 
 .home-hero-text h1 {
